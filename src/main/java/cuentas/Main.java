@@ -15,7 +15,7 @@ public class Main {
     public static void operativa_cuenta(CCuenta cuenta1) {
         operativa_cuenta(cuenta1, 0);
     }
-    
+    //Método creado para encapsular en un método las operaciones con cuenta1
     public static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         double saldoActual;
         saldoActual = cuenta1.estado();
