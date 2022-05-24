@@ -1,5 +1,11 @@
 package cuentas;
 
+/**
+ * @author abrahanpadilla
+ * @version 1.0
+ * @since 1.0
+ */
+
 public class CCuenta {
 
 
@@ -24,6 +30,12 @@ public class CCuenta {
         return getSaldo();
     }
 
+    /**
+     * 
+     * @param cantidad
+     * @throws Exception
+     */
+    
     public void ingresar(double cantidad) throws Exception
     {
         if (cantidad<0)
@@ -31,6 +43,12 @@ public class CCuenta {
         setSaldo(getSaldo() + cantidad);
     }
 
+    /**
+     * 
+     * @param cantidad
+     * @throws Exception 
+     */
+    
     public void retirar(double cantidad) throws Exception
     {
         if (cantidad <= 0)
